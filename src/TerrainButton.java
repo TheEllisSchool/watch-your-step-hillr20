@@ -59,7 +59,7 @@ public class TerrainButton extends JButton{
 		revealed = reveal;
 		if (revealed = true) {
 			if (hasHole() ) {
-				setBackground(Color.BLACK);
+				setBackground(Color.BLACK);//setIcon(image);
 				//for image:
 				//as a member variable
 				//private ImageIcon image = new ImageIcon(C:/desing/0.png");
@@ -72,13 +72,14 @@ public class TerrainButton extends JButton{
 					setText("" + nextToHoles); 
 				}
 			}
+		}
 			else {
 				setBackground(null);
 				setText("");
 			}
 			
 			setFocusPainted(false); //i don't know whether it does the thing it's supposed to do
-		}
+		//}
 	}
 	public void reset() {
 		hole = false;
