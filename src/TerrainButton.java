@@ -79,7 +79,7 @@ public class TerrainButton extends JButton{
 			}
 			
 			setFocusPainted(false); //i don't know whether it does the thing it's supposed to do
-		//}
+		//} check your brackets if you have problems
 	}
 	public void reset() {
 		hole = false;
